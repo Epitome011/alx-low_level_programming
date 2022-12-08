@@ -4,7 +4,7 @@
  * code by Epitome
  * Return: 0
  */
-int main(0)
+int main(void)
 {
 	char a;
 	int b;
