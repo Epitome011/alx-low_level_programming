@@ -8,7 +8,7 @@
 
 int _islower(int alpha)
 {
-	if (alpha >= 'a' && alpha  <= 'z')
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
@@ -16,5 +16,6 @@ int _islower(int alpha)
 	{
 		return (0);
 	}
+	_putchar('\n');
 }
 
