@@ -1,12 +1,14 @@
 #include <main.h>
 
 /**
- * add - add two numbers together
- * @a: one argument
- * @b: another argument to be added
- * Return: returns 0 if successful
+ * add - Adds two integers and returns
+ * the result.
+ *
+ * @a: number one.
+ * @b: number two.
+ *
+ * Return: Add of number one and number two.
  */
-
 int add(int a, int b)
 {
 	return (a + b);
