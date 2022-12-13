@@ -2,11 +2,11 @@
 
 /**
  * _islower - prints the alphabets in lower case
- * @alpha: number or an alphabet
- * Return: returns 0 if successful or 1 if otherwise
+ * @c: number or an alphabet
+ * Return: returns 1 if c is lowercase or 0 if otherwise
  */
 
-int _islower(int alpha)
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
